@@ -1,10 +1,13 @@
 import React from 'react';
 
-function App() {
+export const App: React.FC = () => {
   return (
-    <div>
+    <div
+      style={{
+        fontFamily: 'sans-serif'
+      }}
+    >
+      Run Storybook via <code>npm run storybook</code>
     </div>
-  );
-}
-
-export default App;
+  )
+};
