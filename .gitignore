@@ -24,3 +24,5 @@ yarn-error.log*
 
 # debug `npm pack`
 /*.tgz
+
+storybook-static
